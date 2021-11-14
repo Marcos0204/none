@@ -14,18 +14,14 @@
 }
 
 .container-item, .container-item2{
-    background-color: saddlebrown;
+    background-color: rgb(101, 101, 221);
     width: 150px;
     height: 150px;
-    border-radius: 30%;
-    transition: all 2s ease;
+    transition: all 1s;
+    transition-timing-function: ease-in;
 }
 
 .container-item:hover {
-    background-color: greenyellow;
-    transform:scale(0.5);
-}
-.container-item2:hover {
-    background-color: blue;
-    transform: scale(1.5);
+   background-color: rgb(37, 37, 168);
+  
 }
