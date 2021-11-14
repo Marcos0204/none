@@ -1,0 +1,31 @@
+*, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.container-item, .container-item2{
+    background-color: saddlebrown;
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+    transition: all 2s ease;
+}
+
+.container-item:hover {
+    background-color: greenyellow;
+    transform:scale(0.5);
+}
+.container-item2:hover {
+    background-color: blue;
+    transform: scale(1.5);
+}
