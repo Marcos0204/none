@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: tomato;
+    transition: all 1s cubic-bezier(0.47, 0.18, 0.1, 0.78)
+    
+}
+
+.item:hover {
+    border-radius: 40%;
+    margin: 60px;
+    background-color: greenyellow;
+    transform: scale(1.5);
+}
+
