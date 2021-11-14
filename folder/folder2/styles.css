@@ -15,27 +15,30 @@
 }
 
 #animation{
-    width: 50px;
+    align-self: flex-start;
+    width: 150px;
     height: 150px;
+    border-radius: 10px;
     background-color: rgb(241, 175, 53);
-    animation: move 1s ease;
-}
-
-#animation{
-    width: 50px;
-    height: 150px;
-    background-color: rgb(241, 175, 53);
-    animation: move 1s ease;
+    animation: move 20s infinite;
+   
 }
 
 
 @keyframes move {
     0% {
-        transform: translateX(0);
+        transform: translateX(0px);
         background-color:greenyellow;
+ 
+ 
+    }
+    50% {
+        transform: translateX(90vw);
+        border-radius: 50%;
+        background-image: url('https://cdn.pixabay.com/photo/2012/04/12/21/37/rabbit-30751_960_720.png');
     }
     100% {
-        transform: translateX(300px);
+        transform: translateX(0px);
     }
 }
 
