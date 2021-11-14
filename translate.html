@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin-top: 50px;
+        }
+        .shadow {
+            border-radius: 50%;
+            background: lightgray;
+            box-shadow: 0 1px 3px rgb(23 23 23 / 24%);
+            width: 100px;
+            height: 100px;
+        }
+        .circle {
+            border-radius: 50%;
+            background: rgb(13, 35, 110);
+            width: 100px;
+            height: 100px;
+        }
+        .circle:hover {
+            transform: translate(20px, -15px);
+        }
+    </style>
+</head>
+<body>
+    <div class="shadow">
+        <div class="circle"></div>
+    </div>
+</body>
+</html>
