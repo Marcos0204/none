@@ -12,16 +12,22 @@ button {
 
 ul.acordion li {
     list-style: none;
+    
 }
 
 ul.acordion > li ul {
-    background-color: red;
     max-height: 0;
     overflow: hidden;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 200ms;
+    transform: translateY(-100px);
+    opacity: 0;
 }
 
-ul.acordion > li:hover > ul {
-    background-color: greenyellow;
+ul.acordion > li.open > ul {
     max-height: 500px;
+    transform: translateY(0);
+    opacity: 1;
 }
 
