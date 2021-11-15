@@ -1,0 +1,33 @@
+
+button {
+    padding: 8px 16px;
+    background-color: transparent;
+    color: rgb(231, 216, 7);
+    border-radius: 14px;
+    border: 2px solid rgb(231, 216, 7);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+ul.acordion li {
+    list-style: none;
+    
+}
+
+ul.acordion > li ul {
+    max-height: 0;
+    overflow: hidden;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 200ms;
+    transform: translateY(-100px);
+    opacity: 0;
+}
+
+ul.acordion > li.open > ul {
+    max-height: 500px;
+    transform: translateY(0);
+    opacity: 1;
+}
+
