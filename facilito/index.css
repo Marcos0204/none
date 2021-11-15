@@ -1,0 +1,27 @@
+
+button {
+    padding: 8px 16px;
+    background-color: transparent;
+    color: rgb(231, 216, 7);
+    border-radius: 14px;
+    border: 2px solid rgb(231, 216, 7);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+ul.acordion li {
+    list-style: none;
+}
+
+ul.acordion > li ul {
+    background-color: red;
+    max-height: 0;
+    overflow: hidden;
+}
+
+ul.acordion > li:hover > ul {
+    background-color: greenyellow;
+    max-height: 500px;
+}
+
